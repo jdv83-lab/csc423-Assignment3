@@ -1,0 +1,20 @@
+Tue29Sep 11:36AM
+
+Can I build the database docs, and use that to automatically contstrcut the schema?
+
+- Pros:
+	Implementation agnostic documentation
+		Understanding and changing the DB is much easier when everyone understands wtf is going on
+	Probably a great way to construct Rel. DB's in the future
+	Dont know if all of SQL can be mapped to DBML
+- Cons:
+	Gotta learn it
+
+Progression:
+	Create the model
+	Then implement the assignment
+	Then try to find a way to dbml2sql it
+
+
+
+
