@@ -1,0 +1,4 @@
+SELECT * FROM Staff;
+SELECT * FROM Skill;
+SELECT * FROM Project;
+SELECT * FROM Booking;

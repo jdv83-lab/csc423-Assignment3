@@ -1,0 +1,30 @@
+project assignment3 {
+  database_type: 'SQLite'
+}
+
+table Staff {
+  id integer [pk]
+  name varchar(255)
+  departmentName varchar(255)
+  skillID integer [ref: > Skill.id]
+}
+
+table Skill {
+  id integer [pk]
+  description varchar(255)
+  chargeOutRate real
+}
+
+table Project {
+  id integer [pk]
+  startDate date
+  endDate date
+  budget real
+}
+
+table Booking {
+  staffID integer [ref: > Staff.id]
+  projectID integer [ref: > Project.id]
+  dateWorkedOn date
+  hoursWorked real
+}

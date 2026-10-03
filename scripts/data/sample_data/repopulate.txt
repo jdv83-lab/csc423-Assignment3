@@ -1,0 +1,6 @@
+.read scripts/tables/recreate_tables.txt
+
+.read scripts/data/sample_data/Skill/good.sql
+.read scripts/data/sample_data/Staff/good.sql
+.read scripts/data/sample_data/Project/good.sql
+.read scripts/data/sample_data/Booking/good.sql

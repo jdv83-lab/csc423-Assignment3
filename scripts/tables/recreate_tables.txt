@@ -1,0 +1,11 @@
+.once build/drop_tables.txt
+
+# writes drop instructions for ALL tables
+.read scripts/tables/drop_tables.sql
+
+# drop ALL tables
+.read scripts/tables/pragma_fk_off.txt
+.read build/drop_tables.txt
+
+# recreate tables
+.read scripts/tables/create_tables.sql
